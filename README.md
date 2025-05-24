@@ -87,6 +87,8 @@ Paperhead is an evolving project with the following tentative timeline:
         
 -   **Q3 2025**:
     
+    -   Release the first version of paperhead.io website
+    -   Release the main community telegram group for post-stream community engagemnt
     -   Release of the first DeFi project (e.g., a gambling game) with $PAPERHEAD integration.
         
 -   **Q4 2025**:
