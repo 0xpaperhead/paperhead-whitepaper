@@ -47,7 +47,7 @@ Paperhead offers a compelling solution through the following pillars:
 
 ### 4.2 Distribution
 
-The distribution of $PAPERHEAD tokens is facilitated through the Pump.fun platform's token launch mechanism. The total supply of $PAPERHEAD is 1,000,000,000 tokens. As part of the launch, the creator acquired 3,529,605.227977 $PAPERHEAD through an initial purchase, representing the only portion directly controlled by the creator. The remaining tokens are allocated as follows:
+The distribution of $PAPERHEAD tokens is facilitated through the Pump.fun platform's token launch mechanism. The total supply of $PAPERHEAD is 1,000,000,000 tokens. As part of the launch, the creator acquired 3,529,605.227977 $PAPERHEAD through an initial purchase and further acquired an additional amount of [4,454,813.20582](https://solscan.io/tx/4egKLifc1KYJeusUesGWNzDE1GPL5N4Pcywkzi38s4FVJP66XDJTthjYKsazJHTvLfLy1t1daAQ9sbfMFmT9VEck) to a total of 7,984,418 $PAPERHEAD representing the only portion directly controlled by the creator. The remaining tokens are allocated as follows:
 
 -   **Community Holdings**: Tokens purchased by the community during the token launch on Pump.fun. These tokens are held by community members who participated in the initial sale phase.
     
