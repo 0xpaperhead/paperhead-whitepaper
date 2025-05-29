@@ -1,13 +1,13 @@
 # Paperhead Whitepaper
 
 **Created On**: May 22, 2025  
-**Version:** 1.0
+**Version:** 2.0
 
 ----------
 
 ## 1. Introduction
 
-Paperhead is an innovative project that bridges the gap between live streaming and decentralized finance (DeFi) on the Solana blockchain. Launched on the Pump.fun platform, Paperhead introduces a community-driven token, $PAPERHEAD, backed by a unique approach: the creator live streams the development of software projects (specifically DeFi applications) offering transparency, engagement, and real utility to token holders. This fusion of content creation and cryptocurrency aims to redefine how creators and communities interact in the blockchain space.
+Paperhead is an innovative project that bridges the gap between live streaming and decentralized finance (DeFi) on the Solana blockchain. Launched on the Pump.fun platform, Paperhead introduces a community-driven token, $PAPERHEAD, backed by a unique approach: the creator live streams the development of an AI crypto trading agent offering transparency, engagement, and real utility to token holders. This fusion of content creation and cryptocurrency aims to redefine how creators and communities interact in the blockchain space.
 
 ----------
 
@@ -21,13 +21,13 @@ The crypto market, particularly within the realm of meme coins and community-dri
 
 Paperhead offers a compelling solution through the following pillars:
 
--   **Transparency via Live Streaming**: The creator streams the development of DeFi projects live on Pump.fun, allowing the community to see exactly what’s being built and how it progresses. This openness fosters trust and accountability.
+-   **Transparency via Live Streaming**: The creator streams the development of DeFi projects live on X (formally Twitter), allowing the community to see exactly what's being built and how it progresses. This openness fosters trust and accountability.
     
--   **Token Utility**: $PAPERHEAD will serves as a native option within the DeFi projects developed on stream, unlocking exclusive benefits for holders (e.g., better odds in games or reduced fees).
+-   **Token Utility**: $PAPERHEAD will serves as a native option with the Paperhead Trading Agent developed on stream, unlocking exclusive access to using the trading agent.
     
 -   **Community Engagement**: The live streaming format enables real-time interaction, feedback, and participation, cultivating a vibrant and invested community.
     
--   **Creator Sustainability**: Leveraging Pump.fun’s creator rewards system, where creators earn 0.05% of transaction volume in SOL, Paperhead ensures a consistent income stream for the creator (dev) without the need to sell tokens. This system means the creator doesn’t need to resort to selling, as they are well-incentivized through the rewards program to focus on the project’s long-term success and community growth.
+-   **Creator Sustainability**: Leveraging Pump.fun's creator rewards system, where creators earn 0.05% of transaction volume in SOL, Paperhead ensures a consistent income stream for the creator (dev) without the need to sell tokens. This system means the creator doesn't need to resort to selling, as they are well-incentivized through the rewards program to focus on the project's long-term success and community growth. In addition to the agent's trading fees (1% of traded assets in the agent pools).
     
 
 ----------
@@ -54,24 +54,23 @@ The distribution of $PAPERHEAD tokens is facilitated through the Pump.fun platfo
 -   **Locked Liquidity**: A portion of the tokens is paired with SOL and locked in liquidity pools on decentralized exchanges (DEXes) by Pump.fun. This ensures that $PAPERHEAD can be traded efficiently and with sufficient liquidity.
     
 
-The specific amounts in community holdings and locked liquidity are determined by the dynamics of the token launch and market participation, as managed by Pump.fun's. This distribution model aligns with the project's goal of community involvement, leveraging Pump.fun’s standard mechanism to distribute tokens fairly and transparently through their fair-launch.
+The specific amounts in community holdings and locked liquidity are determined by the dynamics of the token launch and market participation, as managed by Pump.fun's. This distribution model aligns with the project's goal of community involvement, leveraging Pump.fun's standard mechanism to distribute tokens fairly and transparently through their fair-launch.
 
 ### 4.3 Utility
 
--   **DeFi Integration**: $PAPERHEAD is intended to be seamlessly integrated into the DeFi projects developed during live streams. For instance, in a hypothetical gambling game, holding and using $PAPERHEAD could enhance user odds, adjusting the house advantage from 60/40 to 55/45. This mechanism aims to provide token holders with meaningful advantages within the ecosystem, with plans to extend similar benefits to other DeFi projects as they are created.
-    
--   **Projects Yield Earnings**: As this is the initial version of the whitepaper and the feasibility of this feature remains under evaluation, the project envisions enabling $PAPERHEAD holders to share in the earnings generated by projects built and published on stream. While the details of this potential benefit are still being explored, it reflects the project's aspiration to deliver value to token holders as the ecosystem grows.
-    
+The primary utility of the $PAPERHEAD token revolves around the AI Trading Agent, which is central to the project's vision.
 
-### 4.4 Creator Rewards
-
-Thanks to Pump.fun’s rewards system, the creator earns 0.05% of every $PAPERHEAD transaction in SOL. For example, if the token generates $10 million in trading volume, the creator receives $5,000 in SOL, ensuring sustainable funding for the project.
+-   **Access to AI Trading Agent**: $PAPERHEAD tokens will be required to access and utilize the Paperhead AI Trading Agent developed on stream. Holding tokens will grant users entry to the agent's capabilities.
+    
+-   **Enhanced Agent Features & Performance**: Token holders may benefit from enhanced features within the AI Trading Agent based on volume-traded, the size of the active position held, referral count, referral network volume. This could include access to premium trading features, lower trading fees, or improved analytical tools. The specific benefits will be detailed as the agent's development progresses.
+    
+-   **Potential for Yield Sharing**: Building on the vision of community benefit, the project is exploring models where $PAPERHEAD holders could potentially share in a portion of the successes generated by the AI Trading Agent (e.g., from performance fees or other revenue streams). The feasibility and mechanics of this feature are under evaluation and will be developed with community transparency.
 
 ----------
 
 ## 5. Technology
 
-Paperhead is built on the Solana blockchain, renowned for its high speed, low transaction costs, and scalability. The DeFi projects developed on stream will leverage different technologies such as Solana’s smart contracts for secure, transparent, and efficient operations. The live streaming component is powered by Pump.fun, which integrates token creation, trading, and content creation into a seamless experience.
+Paperhead is built on the Solana blockchain, renowned for its high speed, low transaction costs, and scalability. The DeFi projects developed on stream will leverage different technologies such as Solana's smart contracts for secure, transparent, and efficient operations. The live streaming component is powered by X boardcasts.
 
 ----------
 
@@ -81,28 +80,39 @@ Paperhead is an evolving project with the following tentative timeline:
 
 -   **Q2 2025**:
     
-    -   Launch of $PAPERHEAD token on Pump.fun.
+    -   Launch of $PAPERHEAD token on Pump.fun. ✓
         
-    -   Begin live streaming sessions to showcase development and engage the community.
+    -   Begin live streaming sessions to showcase development and engage the community. ✓
         
--   **Q3 2025**:
+    -   Release the first version of paperhead.io website ✓
     
-    -   Release the first version of paperhead.io website (Done)
-    -   Release the main community telegram group for post-stream community engagemnt
-    -   Release of the first DeFi project (e.g., a gambling game) with $PAPERHEAD integration.
+    -   Release the main community telegram group for post-stream community engagemnt ✓
+
+    -   Outline the roadmap and objective for Paperhead ✓
+
+-   **Q3 2025**:
+        
+    -   Release the initial public repository for Paperhead (AI Trading Agent)
+
+    -   Integrate trading capabilities (such as automated swaps)
+
+    -   Implement the AI agent engine for buy/sell signals
+
+    -   Outline the initial version's capabilities
+
+    -   Announce public launch.
         
 -   **Q4 2025**:
     
-    -   Rollout of staking and yield farming features to reward token holders.
+    -   Rollout plan for further $PAPERHEAD utility from the perspective of enhanced trading features.
         
--   **Q2 2026**:
+-   **Q2 2026** (tentative):
     
     -   Expansion of the DeFi ecosystem with additional projects, enhancing $PAPERHEAD utility.
         
--   **Q3 2026**:
+-   **Q3 2026** (tentative):
     
     -   Implementation of governance mechanisms for community-driven decision-making.
-        
 
 _This roadmap may adapt based on community input and development milestones._
 
@@ -110,13 +120,13 @@ _This roadmap may adapt based on community input and development milestones._
 
 ## 7. Objectives and Vision
 
-A fundamental goal of the Paperhead live streams and the broader project is to construct innovative DeFi projects primarily using AI coding tools, showcasing their transformative potential in software development. These tools enable us to adopt an approach we call "vibe coding"—a dynamic, intuitive, and creative method of building software, augmented by AI, which we believe will grow increasingly vital in the future.
+A fundamental goal of the Paperhead live streams and the broader project is to construct an AI trading agent primarily using AI coding tools (use AI to build AI), showcasing their transformative potential in software development. These tools enable us to adopt an approach we call "vibe coding"—a dynamic, intuitive, and creative method of building software, augmented by AI, which we believe will grow increasingly vital in the future.
 
-Through our live streams, viewers will witness these AI tools in action as we develop real projects from scratch in real-time. This not only demonstrates the power and efficiency of AI-assisted coding but also serves as an engaging platform for viewers to see its practical application unfold. Whether you're a developer eager to master these tools or an enthusiast curious about the next wave of technology, these streams offer a front-row seat to the evolution of coding.
+Through our live streams, viewers will witness these AI tools in action as we develop - Paperhead the AI trading agent - from scratch in real-time. This not only demonstrates the power and efficiency of AI-assisted coding but also serves as an engaging platform for viewers to see its practical application unfold. Whether you're a developer eager to master these tools or an enthusiast curious about the next wave of technology, these streams offer a front-row seat to the evolution of coding.
 
-Moreover, this initiative provides a unique opportunity for viewers to capitalize on this trend. By observing and learning from the live demonstrations, you can gain actionable insights into leveraging AI coding tools for your own projects or investments. Paperhead is committed to pioneering a new era of software development—one that is more accessible, efficient, and attuned to the demands of tomorrow’s creators.
+Moreover, this initiative provides a unique opportunity for viewers to capitalize on this trend. By observing and learning from the live demonstrations, you can gain actionable insights into leveraging AI coding tools for your own projects or investments. Paperhead is committed to pioneering a new era of software development—one that is more accessible, efficient, and attuned to the demands of tomorrow's creators.
 
-Paperhead is more than a token or a streaming channel—it’s a movement to bring humanity and purpose to the crypto space. By showcasing the software development process live, Paperhead connects the creator and community in a way that’s authentic and interactive. The $PAPERHEAD token ties this vision together, offering real utility and rewards while supporting the project’s growth through Pump.fun’s innovative rewards system.
+Paperhead is more than a token or a streaming channel—it's a movement to bring humanity and purpose to the crypto space. By showcasing the software development process live, Paperhead connects the creator and community in a way that's authentic and interactive. The $PAPERHEAD token ties this vision together, offering real utility and rewards while supporting the project's growth through Pump.fun's innovative rewards system and trading agent fees.
 
 ----------
 
