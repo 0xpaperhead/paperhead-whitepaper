@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.1.0
+**Version:** 1.1.1
 
 ## 1. Introduction
 
@@ -35,11 +35,11 @@ This document follows a semantic versioning approach to track progress and chang
 
 - [x] create a public workdoc breaks down the technical to-do bi-weekly (side paper)  `this stream`
 - [x] update the website to reflect this technical workdoc/todo `this stream`
-- [ ] fix chart (complete) `this stream`
-	- [ ] data rendering
-	- [ ] overlay UI
-	- [ ] Highlight graph data is only mock data, actual agent performance will only start to be tracked when the agent is active and reporting allocations over time
-- [ ] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `this stream`
+- [x] fix chart (complete) `this stream`
+	- [x] data rendering
+	- [x] overlay UI
+	- [x] Highlight graph data is only mock data, actual agent performance will only start to be tracked when the agent is active and reporting allocations over time
+- [ ] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `next stream`
 - [ ] add React Query for organized caching and fetching of the agent data `next stream`
 - [ ] correct the agent app's metadata and favicon `next stream`
 - [ ] publish the agent on [agent.paperhead.io](https://paperhead.io) `next stream`
