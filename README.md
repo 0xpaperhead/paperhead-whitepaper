@@ -1,7 +1,12 @@
 # Paperhead Whitepaper
 
 **Created On**: May 22, 2025  
-**Version:** 2.0
+**Version:** 2.1
+
+### Version Notes
+This whitepaper follows a semantic versioning approach:
+- **Major versions (X.0)**: Significant structural changes, major milestone achievements, or fundamental shifts in project direction
+- **Minor versions (2.X)**: Content updates, new sections, roadmap adjustments, or enhanced details on existing features
 
 ----------
 
