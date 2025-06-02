@@ -4,8 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.0
-  
+**Version:** 1.1.0
 
 ## 1. Introduction
 
@@ -22,10 +21,20 @@ This document is updated frequently and reflects tasks intended to be completed 
 
 This granular approach ensures that both the community and development team have a clear understanding of immediate priorities, technical challenges, and progress toward the larger vision outlined in the main roadmap.
 
-## 2. To-do
+## 2. Versioning Logic
+
+This document follows a semantic versioning approach to track progress and changes:
+
+- **Major version (X.0.0)**: Complete document restructures, major milestone completions, or significant scope changes
+- **Minor version (1.X.0)**: New sections added, significant content updates, or structural improvements to the document  
+- **Patch version (1.0.X)**: Task completion updates, small corrections, or minor progress tracking changes
+
+**Example:** When tasks are marked as completed or small updates are made to reflect development progress, the patch version is incremented (e.g., 1.0 → 1.0.1). This helps the community track development momentum and easily see when new progress has been made since their last visit.
+
+## 3. To-do
 
 - [x] create a public workdoc breaks down the technical to-do bi-weekly (side paper)  `this stream`
-- [ ] update the website to reflect this technical workdoc/todo `this stream`
+- [x] update the website to reflect this technical workdoc/todo `this stream`
 - [ ] fix chart (complete) `this stream`
 	- [ ] data rendering
 	- [ ] overlay UI
