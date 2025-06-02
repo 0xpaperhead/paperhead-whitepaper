@@ -106,6 +106,7 @@ Paperhead is an evolving project with the following tentative timeline:
         
 -   **Q4 2025**:
     
+    -   Plan deployment of Paperhead AI Trading Agent on Avo's Agent Marketplace
     -   Rollout plan for further $PAPERHEAD utility from the perspective of enhanced trading features.
         
 -   **Q2 2026** (tentative):
