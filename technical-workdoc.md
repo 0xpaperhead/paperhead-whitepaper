@@ -1,4 +1,3 @@
-
 # AI Trading Agent Workdoc
 This is a to-do side paper
 
@@ -9,7 +8,19 @@ This is a to-do side paper
   
 
 ## 1. Introduction
-This document is a WIP for to-do technicals tasks updated often and reflective of a bi-weekly completion goal. This is a granular snapshop of the roadmap. This document is necessary for the community to observe where they stand on the completion of technical tasks and gives a better idea of timelines.
+
+This document serves as a detailed technical breakdown and progress tracker for the Paperhead AI Trading Agent development. While the main [roadmap](README.md#6-roadmap) provides high-level quarterly milestones and strategic direction, this technical workdoc offers granular, actionable tasks with specific completion targets.
+
+**Purpose:**
+- **Transparency**: Provides the community with real-time visibility into development progress and task completion status
+- **Accountability**: Establishes clear, measurable goals for each development cycle
+- **Timeline Clarity**: Gives community members a better understanding of what to expect and when
+- **Live Stream Alignment**: Tasks are organized around live streaming sessions, allowing the community to watch development happen in real-time
+
+**Update Cycle:**
+This document is updated frequently and reflects tasks intended to be completed over the following 2 weeks. Tasks are marked with completion status and organized by streaming sessions (`this stream`, `next stream`) to align with the live development approach that defines the Paperhead project.
+
+This granular approach ensures that both the community and development team have a clear understanding of immediate priorities, technical challenges, and progress toward the larger vision outlined in the main roadmap.
 
 ## 2. To-do
 

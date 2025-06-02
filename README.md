@@ -78,6 +78,8 @@ Paperhead is built on the Solana blockchain, renowned for its high speed, low tr
 
 Paperhead is an evolving project with the following tentative timeline:
 
+> **📋 For detailed technical tasks and bi-weekly progress updates, see our [Technical Workdoc](technical-workdoc.md)**
+
 -   **Q2 2025**:
     
     -   Launch of $PAPERHEAD token on Pump.fun. ✓
@@ -114,7 +116,7 @@ Paperhead is an evolving project with the following tentative timeline:
     
     -   Implementation of governance mechanisms for community-driven decision-making.
 
-_This roadmap may adapt based on community input and development milestones._
+_This roadmap may adapt based on community input and development milestones. For granular technical progress and task completion status, refer to the [Technical Workdoc](technical-workdoc.md) which is often and is a reflection of tasks intended to be completed over the following 2 weeks._
 
 ----------
 
