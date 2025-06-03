@@ -39,9 +39,9 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] data rendering
 	- [x] overlay UI
 	- [x] Highlight graph data is only mock data, actual agent performance will only start to be tracked when the agent is active and reporting allocations over time
-- [ ] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `this stream`
-- [ ] correct the agent app's metadata and favicon `this stream`
-- [ ] publish the agent on [agent.paperhead.io](https://paperhead.io) `this stream`
+- [x] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `this stream`
+- [x] correct the agent app's metadata and favicon `this stream`
+- [x] publish the agent on [agent.paperhead.io](https://paperhead.io) `this stream`
 - [ ] add React Query for organized caching and fetching of the agent data `this stream`
 - [ ] decide privy vs dynamic (user-session generation)
 - [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access
