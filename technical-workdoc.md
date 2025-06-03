@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.1.2
+**Version:** 1.1.3
 
 ## 1. Introduction
 
@@ -42,7 +42,8 @@ This document follows a semantic versioning approach to track progress and chang
 - [x] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `this stream`
 - [x] correct the agent app's metadata and favicon `this stream`
 - [x] publish the agent on [agent.paperhead.io](https://paperhead.io) `this stream`
-- [ ] add React Query for organized caching and fetching of the agent data `this stream`
+- [x] add React Query for organized caching and fetching of the agent data `this stream`
+- [ ] make popup graph state separate from the main graph load (so it doesn't close when the timerange changes)
 - [ ] decide privy vs dynamic (user-session generation)
 - [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access
 - [ ] implement supabase database for the following:
