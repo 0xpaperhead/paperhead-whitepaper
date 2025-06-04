@@ -39,15 +39,15 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] data rendering
 	- [x] overlay UI
 	- [x] Highlight graph data is only mock data, actual agent performance will only start to be tracked when the agent is active and reporting allocations over time
-- [x] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent) `this stream`
-- [x] correct the agent app's metadata and favicon `this stream`
-- [x] publish the agent on [agent.paperhead.io](https://paperhead.io) `this stream`
-- [x] add React Query for organized caching and fetching of the agent data `this stream`
-- [ ] make popup graph state separate from the main graph load (so it doesn't close when the timerange changes) `next stream`
-- [ ] decide privy vs dynamic (user-session generation) `next stream`
-- [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access `next stream`
+- [x] make readme more accurate for [paperhead-trading-agent](https://github.com/0xpaperhead/paperhead-trading-agent)
+- [x] correct the agent app's metadata and favicon
+- [x] publish the agent on [agent.paperhead.io](https://paperhead.io)
+- [x] add React Query for organized caching and fetching of the agent data
+- [ ] make popup graph state separate from the main graph load (so it doesn't close when the timerange changes) `this stream`
+- [ ] decide privy vs dynamic (user-session generation) `this stream`
+- [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access `this stream`
 - [ ] implement supabase database for the following:
-	- [ ] db initialization, connection, types `next stream`
+	- [ ] db initialization, connection, types `this stream`
 	- [ ] user creation upon wallet connection
 	- [ ] create a shared-custodian user pool upon wallet connection
 	- [ ] agent logs
