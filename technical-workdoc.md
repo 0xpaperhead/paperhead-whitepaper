@@ -44,10 +44,11 @@ This document follows a semantic versioning approach to track progress and chang
 - [x] publish the agent on [agent.paperhead.io](https://paperhead.io)
 - [x] add React Query for organized caching and fetching of the agent data
 - [x] make popup graph state separate from the main graph load (so it doesn't close when the timerange changes)
-- [ ] decide privy vs dynamic (user-session generation) `this stream`
+- [x] decide privy vs dynamic (user-session generation) `this stream`
+- [x] implement dynamic wallet connection through cookie based session `this stream`
 - [ ] implement supabase database for the following:
-	- [ ] db initialization, connection, types `this stream`
-	- [ ] user creation upon wallet connection `this stream`
+	- [ ] db initialization, connection, types `next stream`
+	- [ ] implement user context and auth layer in sync with dynamic wallet connection `next stream`
 	- [ ] create a shared-custodian user pool upon wallet connection
 	- [ ] agent logs
 	- [ ] user interactions (user logs?)
