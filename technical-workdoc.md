@@ -47,11 +47,11 @@ This document follows a semantic versioning approach to track progress and chang
 - [x] decide privy vs dynamic (user-session generation)
 - [x] implement dynamic wallet connection through cookie based session
 - [ ] implement supabase database for the following:
-	- [x] db initialization, connection, types `this stream`
-	- [x] implemented a user table `this stream`
-	- [x] implement user context and auth layer in sync with dynamic wallet connection `this stream`
-	- [ ] create a shared-custodian user pool upon wallet connection `next stream`
-	- [ ] agent logs `next stream`
+	- [x] db initialization, connection, types
+	- [x] implemented a user table
+	- [x] implement user context and auth layer in sync with dynamic wallet connection
+	- [ ] create a shared-custodian user pool upon wallet connection `this stream`
+	- [ ] agent logs db `this stream`
 - [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access 
 - [ ] Implement Redis for secure key export and single-request session logic
 - [ ] Implement $PAPERHEAD as currency on agent.paperhead.io
