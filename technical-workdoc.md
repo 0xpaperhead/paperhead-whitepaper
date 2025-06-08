@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.1.8
+**Version:** 1.2.1
 
 ## 1. Introduction
 
@@ -46,16 +46,19 @@ This document follows a semantic versioning approach to track progress and chang
 - [x] make popup graph state separate from the main graph load (so it doesn't close when the timerange changes)
 - [x] decide privy vs dynamic (user-session generation)
 - [x] implement dynamic wallet connection through cookie based session
-- [ ] implement supabase database for the following:
+- [x] implement supabase database for the following:
 	- [x] db initialization, connection, types
 	- [x] implemented a user table
 	- [x] implement user context and auth layer in sync with dynamic wallet connection
 	- [x] implemented SPL token transaction with SOL transfer program (SOL + PAPERHEAD) with live balance view of $Paperhead - transaction interface
 	- [x] Implement a robust encryption library to handle pool wallet creation, storage, and access `this stream`
 	- [x] create a shared-custodian user pool upon wallet connection `this stream`
-	- [ ] agent logs db `this stream`
-- [ ] Implement Redis for secure key export and single-request session logic
-- [ ] Implement $PAPERHEAD as currency on agent.paperhead.io
-	- [ ] Accept the user's inputted $PAPERHEAD amount and trigger a wallet transaction to the shared-custodial agent-user pool	
+	- [x] user pools logs db `this stream`
+	- [x] agent logs db `this stream`
+- [x] Implement $PAPERHEAD as currency on agent.paperhead.io
+	- [x] Accept the user's inputted $PAPERHEAD amount and trigger a wallet transaction to the shared-custodial agent-user pool	
+- [ ] choose an trading agent framework to build the brains of Paperhead `next stream`
+	- [ ] todos as we decide what framework to implement. `next stream`
 - [ ] Implement a listener for the transaction completion/success to initiate agent permission to use the funds and start allocating based on currently held assets proportionally.
 - [ ] Implement user controls on the front-end
+- [ ] Implement Redis for secure key export and single-request session logic
