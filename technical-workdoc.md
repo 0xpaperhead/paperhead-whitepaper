@@ -51,7 +51,7 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] implemented a user table
 	- [x] implement user context and auth layer in sync with dynamic wallet connection
 	- [x] implemented SPL token transaction with SOL transfer program (SOL + PAPERHEAD) with live balance view of $Paperhead - transaction interface
-	- [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access `next stream` 
+	- [ ] Implement a robust encryption library to handle pool wallet creation, storage, and access `next stream`
 	- [ ] create a shared-custodian user pool upon wallet connection `next stream`
 	- [ ] agent logs db
 - [ ] Implement Redis for secure key export and single-request session logic
