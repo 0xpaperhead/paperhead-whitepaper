@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.2.2
+**Version:** 1.2.3
 
 ## 1. Introduction
 
