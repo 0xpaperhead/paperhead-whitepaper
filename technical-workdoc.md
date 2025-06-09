@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.2.1
+**Version:** 1.2.2
 
 ## 1. Introduction
 
@@ -57,8 +57,16 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] agent logs db `this stream`
 - [x] Implement $PAPERHEAD as currency on agent.paperhead.io
 	- [x] Accept the user's inputted $PAPERHEAD amount and trigger a wallet transaction to the shared-custodial agent-user pool	
-- [ ] choose an trading agent framework to build the brains of Paperhead `next stream`
-	- [ ] todos as we decide what framework to implement. `next stream`
+- [ ] choose an trading agent framework to build the brains of Paperhead (goat vs. TauricResearch) `this/next stream`
+	- [ ] test TauricResearch trading agent (python based).
+	- [x] todos as we decide what framework to implement.
+- [ ] Framework implementation todos:
+	- [ ] choose the neceesary plugins to incorporate in the trading agent
+	- [ ] implement a sentimental data stream for agent decision making
+	- [ ] create a loop script that would trigger an agent action every 5 minutes (testing) every 1 hour (production)
+	- [ ] report current agent holdings (ratio based)
+	- [ ] generate agent logs (probably a skill/plugin to develop)
+	- [ ] interface agent actions with user pools
 - [ ] Implement a listener for the transaction completion/success to initiate agent permission to use the funds and start allocating based on currently held assets proportionally.
 - [ ] Implement user controls on the front-end
 - [ ] Implement Redis for secure key export and single-request session logic
