@@ -67,6 +67,7 @@ This document follows a semantic versioning approach to track progress and chang
 	- [ ] report current agent holdings (ratio based)
 	- [ ] generate agent logs (probably a skill/plugin to develop)
 	- [ ] interface agent actions with user pools
+	- [ ] construct a deployment pipeline for the script + Avo listing needs (plugin or script?)
 - [ ] Implement a listener for the transaction completion/success to initiate agent permission to use the funds and start allocating based on currently held assets proportionally.
 - [ ] Implement user controls on the front-end
 - [ ] Implement Redis for secure key export and single-request session logic
