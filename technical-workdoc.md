@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.2.3
+**Version:** 1.2.4
 
 ## 1. Introduction
 
@@ -51,16 +51,17 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] implemented a user table
 	- [x] implement user context and auth layer in sync with dynamic wallet connection
 	- [x] implemented SPL token transaction with SOL transfer program (SOL + PAPERHEAD) with live balance view of $Paperhead - transaction interface
-	- [x] Implement a robust encryption library to handle pool wallet creation, storage, and access `this stream`
-	- [x] create a shared-custodian user pool upon wallet connection `this stream`
-	- [x] user pools logs db `this stream`
-	- [x] agent logs db `this stream`
+	- [x] Implement a robust encryption library to handle pool wallet creation, storage, and access
+	- [x] create a shared-custodian user pool upon wallet connection
+	- [x] user pools logs db
+	- [x] agent logs db
 - [x] Implement $PAPERHEAD as currency on agent.paperhead.io
 	- [x] Accept the user's inputted $PAPERHEAD amount and trigger a wallet transaction to the shared-custodial agent-user pool	
-- [ ] choose an trading agent framework to build the brains of Paperhead (goat vs. TauricResearch) `this/next stream`
-	- [ ] test TauricResearch trading agent (python based).
+- [x] choose an trading agent framework to build the brains of Paperhead (goat vs. TauricResearch)
+	- [x] test TauricResearch trading agent (python based).
 	- [x] todos as we decide what framework to implement.
 - [ ] Framework implementation todos:
+	- [ ] write a simple loop agent that would feed off to the other trading agent `this stream`
 	- [ ] choose the neceesary plugins to incorporate in the trading agent
 	- [ ] implement a sentimental data stream for agent decision making
 	- [ ] create a loop script that would trigger an agent action every 5 minutes (testing) every 1 hour (production)
