@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.2.5
+**Version:** 1.3.0
 
 ## 1. Introduction
 
@@ -62,6 +62,7 @@ This document follows a semantic versioning approach to track progress and chang
 	- [x] todos as we decide what framework to implement.
 - [ ] Framework implementation todos:
 	- [x] write a simple loop agent that would feed off to the other trading agent (check the last 5 min of the stream)
+	- [x] structured the data flow for the agent
 	- [ ] choose the neceesary plugins to incorporate in the trading agent
 	- [ ] implement a sentimental data stream for agent decision making
 	- [ ] create a loop script that would trigger an agent action every 5 minutes (testing) every 1 hour (production)
@@ -72,3 +73,7 @@ This document follows a semantic versioning approach to track progress and chang
 - [ ] Implement a listener for the transaction completion/success to initiate agent permission to use the funds and start allocating based on currently held assets proportionally.
 - [ ] Implement user controls on the front-end
 - [ ] Implement Redis for secure key export and single-request session logic
+
+## System Flow Diagram
+
+![Agent System Flow](https://i.imgur.com/LMMUsjr.png)
