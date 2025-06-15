@@ -103,7 +103,43 @@ The agent utilizes various data sources to make informed trading decisions. Belo
                     "created_time": 1747998309
                 }
             },
-          
+            "pools":
+            [
+                {
+                    "liquidity": {
+                        "quote": 1248.23870711,
+                        "usd": 364165.2834303389
+                    },
+                    "price": {
+                        "quote": 0.00003543462808397693,
+                        "usd": 0.005168907720113244
+                    },
+                    "tokenSupply": 999832114.612585,
+                    "lpBurn": 100,
+                    "tokenAddress": "3dk9CNre8tmv6bbNXd5F6dgkNnEzsyQ7sPhVT8kKpump",
+                    "marketCap": {
+                        "quote": 35428.67912771314,
+                        "usd": 5168039.936038139
+                    },
+                    "decimals": 6,
+                    "security": {
+                        "freezeAuthority": null,
+                        "mintAuthority": null
+                    },
+                    "quoteToken": "So11111111111111111111111111111111111111112",
+                    "market": "pumpfun-amm",
+                    "lastUpdated": 1749960170435,
+                    "createdAt": 1747998603486,
+                    "txns": {
+                        "buys": 97574,
+                        "total": 185428,
+                        "volume": 23976153,
+                        "sells": 87854
+                    },
+                    "deployer": null,
+                    "poolId": "AE1RrYTUpKWV18kLxY2kfLCq7mZBVovZUnuBEWRvHTyY"
+                }
+            ],
             "events": {
                 "1m": { "priceChangePercentage": 11.739560004960783 },
                 "5m": { "priceChangePercentage": 12.058989597956032 },
