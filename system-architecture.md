@@ -78,9 +78,9 @@ The agent utilizes various data sources to make informed trading decisions. Belo
  
 
  ### Trending Tokens APIs
+ 
  1.  **Solana Tracker Trending API**: `https://data.solanatracker.io/tokens/trending`
-	-  Gets the top 100 trending tokens based on transaction volume in the specified timeframe
-	-  This will return the following:
+ - Gets the top 100 trending tokens based on transaction volume in the specified timeframe and return the following data
 	```json
 	[
         {
@@ -179,8 +179,7 @@ The agent utilizes various data sources to make informed trading decisions. Belo
 	-  **Buy/Sell Pressure**: Real-time buy vs sell transaction counts and volume
 
 2.  **Moralis Trending Tokens API**: `https://deep-index.moralis.io/api/v2.2/tokens/trending?chain=solana&limit=100`
-	-  Gets the top 100 trending tokens on Solana chain with comprehensive market data
-	-  This will return the following:
+- Gets the top 100 trending tokens on Solana chain with comprehensive market data and return the following data:
 	```json
 	[
 		{
