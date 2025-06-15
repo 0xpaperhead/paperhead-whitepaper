@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.3.0
+**Version:** 1.4.0
 
 ## 1. Introduction
 
@@ -74,6 +74,6 @@ This document follows a semantic versioning approach to track progress and chang
 - [ ] Implement user controls on the front-end
 - [ ] Implement Redis for secure key export and single-request session logic
 
-## System Flow Diagram
+## 4. System Architecture & Metrics
 
-![Agent System Flow](https://i.imgur.com/LMMUsjr.png)
+For detailed information about the system architecture, data flow, and measurable metrics used by the trading agent, see: [System Architecture & Metrics](system-architecture.md)
