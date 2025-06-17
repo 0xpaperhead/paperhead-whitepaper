@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.4.0
+**Version:** 1.5.0
 
 ## 1. Introduction
 
@@ -63,8 +63,20 @@ This document follows a semantic versioning approach to track progress and chang
 - [ ] Framework implementation todos:
 	- [x] write a simple loop agent that would feed off to the other trading agent (check the last 5 min of the stream)
 	- [x] structured the data flow for the agent
-	- [ ] choose the neceesary plugins to incorporate in the trading agent
+	- [x] choose the neceesary plugins to incorporate in the trading agent
 	- [ ] implement a sentimental data stream for agent decision making
+		- [ ] implement News Sentiment Analysis data stream
+			- [x] create topic generation system for relevant crypto topics (solana, rwa, airdrop, memecoins, defi, nft, gaming, ai, etc.)
+			- [x] integrate crypto news API for news volume scoring (`https://crypto-news51.p.rapidapi.com/api/v1/crypto/articles/search`)
+			- [x] implement overall crypto sentiment fetching (`https://crypto-news51.p.rapidapi.com/api/v1/crypto/sentiment`)
+			- [x] integrate Fear and Greed Index API (`https://crypto-fear-greed-index2.p.rapidapi.com/index`)
+			- [ ] implement listing/delisting activity monitoring (`https://crypto-news51.p.rapidapi.com/api/v1/crypto/listing_delisting`)
+		- [ ] implement Trending Tokens data streams
+			- [x] integrate Solana Tracker Trending API (`https://data.solanatracker.io/tokens/trending`)
+			- [ ] integrate Moralis Trending Tokens API (`https://deep-index.moralis.io/api/v2.2/tokens/trending`)
+			- [ ] create data aggregation layer to combine multiple trending sources
+		- [ ] create sentiment scoring algorithm that weighs all data sources
+		- [ ] implement trend analysis comparing current vs previous periods
 	- [ ] create a loop script that would trigger an agent action every 5 minutes (testing) every 1 hour (production)
 	- [ ] report current agent holdings (ratio based)
 	- [ ] generate agent logs (probably a skill/plugin to develop)
