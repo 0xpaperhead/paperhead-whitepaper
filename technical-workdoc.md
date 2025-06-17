@@ -4,7 +4,7 @@ This is a to-do side paper
   
 
 **Created On**: June 01, 2025
-**Version:** 1.5.0
+**Version:** 1.5.1
 
 ## 1. Introduction
 
@@ -75,9 +75,9 @@ This document follows a semantic versioning approach to track progress and chang
 			- [x] integrate Solana Tracker Trending API (`https://data.solanatracker.io/tokens/trending`)
 			- [ ] integrate Moralis Trending Tokens API (`https://deep-index.moralis.io/api/v2.2/tokens/trending`)
 			- [ ] create data aggregation layer to combine multiple trending sources
-		- [ ] create sentiment scoring algorithm that weighs all data sources
-		- [ ] implement trend analysis comparing current vs previous periods
-	- [ ] create a loop script that would trigger an agent action every 5 minutes (testing) every 1 hour (production)
+		- [x] create sentiment scoring algorithm that weighs all data sources
+		- [x] implement trend analysis comparing current vs previous periods
+	- [x] create a loop script that would trigger an agent action every 15 minutes (testing) every 24 hour (production)
 	- [ ] report current agent holdings (ratio based)
 	- [ ] generate agent logs (probably a skill/plugin to develop)
 	- [ ] interface agent actions with user pools
